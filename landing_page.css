@@ -1,0 +1,122 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.fcontainer{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 100fr;
+  grid-template-rows: repeat(2, 3fr);
+  justify-content: center;
+  align-items: center;
+}
+
+.hero{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  color: lightskyblue;
+  justify-content: center;
+  align-items: center;
+  background-image: url('/gambar/coding_2.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+button{
+  border: none;
+  font-size: 20px;
+  background-color: #0057a7;
+  color: white;
+  padding: 15px;
+  margin: 15px;
+  transition: 2s ease;
+}
+
+button:hover{ 
+  transform: skew(30deg);
+  color: lightblue;
+}
+
+h2{
+  font-size: 30px;
+}
+
+.hero, h2 p{
+  text-align: center;
+  display: block;
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto;
+}
+
+.container-info-panel{
+  width: 100%;
+  min-height: 100vh;
+  display: block;
+  background-color: Black;
+  justify-content: center;
+  align-content: center;
+  gap: 5px;
+}
+
+.content-panel{
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  gap: 10px;
+  border-radius: 20px;
+  transition: .2s ease;
+}
+
+.content-panel:hover{
+  background-color: #0b59a1;
+  color: white;
+}
+
+i{
+  font-size: 30px;
+  justify-content: center;
+  align-content: center;
+}
+
+.content-panel, i p{
+  margin: 10px auto;
+  padding: 10px;
+}
+
+.materi{
+  width: 100%;
+  min-height: 100vh;
+  display: inline-block;
+  justify-content: center;
+  align-content: center;
+  background-image: url('/gambar/webdsn2.jpg');
+  background-size: cover;
+}
+
+h2{
+  color: #0f76cc;
+  text-align: center;
+}
+p{
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+.mater h2 p{
+  border: 2px solid Black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+footer{
+  width: 100%;
+  min-height: 300px;
+  background-color: Black;
+  color: white;
+  text-align: center;
+}
